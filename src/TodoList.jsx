@@ -7,7 +7,7 @@ import TodoItem from './TodoItem'
     return (
 
         <ul className=" list-group ">
-          <h3 className='text-capitalize text-center'>Todo list</h3>
+          <h3 className='text-capitalize text-center'>emmanuel musya todo list</h3>
             {items.map(item => {
                           return<TodoItem key={items.id} title={item.item}
                                           handleDelete={this.handleDelete=()=> handleDelete(item.id)}
